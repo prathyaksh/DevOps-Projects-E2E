@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
+      <username>prathyaksh.ps@gmail.com</username>
+      <password>Ps@12345</password>
       <id>central</id>
     </server>
     <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
+      <username>prathyaksh.ps@gmail.com</username>
+      <password>Ps@12345</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <name>ps-mvn-pr1-libs-release</name>
+          <url>https://trialsl8jam.jfrog.io/artifactory/ps-mvn-pr1-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <name>ps-mvn-pr1-libs-snapshot</name>
+          <url>https://trialsl8jam.jfrog.io/artifactory/ps-mvn-pr1-libs-snapshot/</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <name>ps-mvn-pr1-libs-release</name>
+          <url>https://trialsl8jam.jfrog.io/artifactory/ps-mvn-pr1-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <name>ps-mvn-pr1-libs-snapshot</name>
+          <url>https://trialsl8jam.jfrog.io/artifactory/ps-mvn-pr1-libs-snapshot/</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
